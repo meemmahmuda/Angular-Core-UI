@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { DefaultLayoutComponent } from './layout';
 import { AllStudentsComponent } from './myComponents/all-students/all-students.component';
+import {ForgetPasswordComponent} from './views/pages/forget-password/forget-password/forget-password.component';
 
 export const routes: Routes = [
   {
@@ -22,6 +23,10 @@ export const routes: Routes = [
       {
         path: 'theme/students',
         component : AllStudentsComponent,
+      },
+      {
+        path: 'forget-pass',
+        component : ForgetPasswordComponent,
       },
       {
         path: 'theme',
